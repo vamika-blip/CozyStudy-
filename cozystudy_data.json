@@ -1,0 +1,323 @@
+{
+  "coins": 10,
+  "active_task_id": null,
+  "subjects": [
+    {
+      "id": "cs101",
+      "name": "Data Structures & Algorithms",
+      "code": "CS 201",
+      "color": "#88B04B",
+      "icon": "\ud83d\udcbb"
+    },
+    {
+      "id": "math",
+      "name": "Linear Algebra & Calculus",
+      "code": "MATH 150",
+      "color": "#92A8D1",
+      "icon": "\ud83d\udcd0"
+    },
+    {
+      "id": "bio",
+      "name": "Molecular Biology",
+      "code": "BIO 110",
+      "color": "#F7CAC9",
+      "icon": "\ud83e\uddec"
+    },
+    {
+      "id": "lit",
+      "name": "World Literature & Essay",
+      "code": "LIT 102",
+      "color": "#E0BBE4",
+      "icon": "\ud83d\udcd6"
+    },
+    {
+      "id": "art",
+      "name": "Digital Art & Design",
+      "code": "ART 210",
+      "color": "#FFD3B6",
+      "icon": "\ud83c\udfa8"
+    }
+  ],
+  "charms": [
+    {
+      "id": "charm_matcha",
+      "name": "Steaming Matcha Latte",
+      "category": "desk",
+      "icon": "\ud83c\udf75",
+      "cost": 0,
+      "unlocked": true,
+      "equipped": true,
+      "description": "Warm ceramic mug of freshly whisked matcha"
+    },
+    {
+      "id": "charm_lamp",
+      "name": "Pastel Desk Lamp",
+      "category": "desk",
+      "icon": "\ud83d\udca1",
+      "cost": 0,
+      "unlocked": true,
+      "equipped": true,
+      "description": "Soft warm amber glow for late night focus"
+    },
+    {
+      "id": "charm_calico",
+      "name": "Sleeping Calico Cat (Mochi)",
+      "category": "pet",
+      "icon": "\ud83d\udc31",
+      "cost": 0,
+      "unlocked": true,
+      "equipped": true,
+      "description": "Purrs peacefully on the rug when focus is high"
+    },
+    {
+      "id": "charm_succulent",
+      "name": "Baby Succulent Pot",
+      "category": "desk",
+      "icon": "\ud83e\udeb4",
+      "cost": 30,
+      "unlocked": true,
+      "equipped": true,
+      "description": "Loves steady daily study consistency"
+    },
+    {
+      "id": "charm_fairylights",
+      "name": "Twinkling Fairy Lights",
+      "category": "wall",
+      "icon": "\u2728",
+      "cost": 50,
+      "unlocked": true,
+      "equipped": true,
+      "description": "Cozy warm sparkles hanging across the window"
+    },
+    {
+      "id": "charm_radio",
+      "name": "Vintage Lo-Fi Cassette Radio",
+      "category": "desk",
+      "icon": "\ud83d\udcfb",
+      "cost": 75,
+      "unlocked": true,
+      "equipped": true,
+      "description": "Plays nostalgic lo-fi study beats"
+    },
+    {
+      "id": "charm_bunny",
+      "name": "Fluffy Mochi Bunny",
+      "category": "pet",
+      "icon": "\ud83d\udc30",
+      "cost": 90,
+      "unlocked": false,
+      "equipped": false,
+      "description": "Hops near the bookshelf during break times"
+    },
+    {
+      "id": "charm_crystal",
+      "name": "Amethyst Focus Crystal",
+      "category": "desk",
+      "icon": "\ud83d\udd2e",
+      "cost": 120,
+      "unlocked": false,
+      "equipped": false,
+      "description": "Radiates serene energy and dispels distractions"
+    },
+    {
+      "id": "charm_polaroids",
+      "name": "Polaroid Memory Board",
+      "category": "wall",
+      "icon": "\ud83d\udcf8",
+      "cost": 80,
+      "unlocked": false,
+      "equipped": false,
+      "description": "Memories of completed milestones and cafe dates"
+    },
+    {
+      "id": "charm_monstera",
+      "name": "Giant Monstera Deliciosa",
+      "category": "floor",
+      "icon": "\ud83c\udf3f",
+      "cost": 100,
+      "unlocked": false,
+      "equipped": false,
+      "description": "Lush tropical plant standing proudly in the corner"
+    },
+    {
+      "id": "charm_beanbag",
+      "name": "Velvet Cloud Beanbag",
+      "category": "floor",
+      "icon": "\ud83d\udecb\ufe0f",
+      "cost": 110,
+      "unlocked": false,
+      "equipped": false,
+      "description": "The softest reading spot in the whole room"
+    },
+    {
+      "id": "charm_globe",
+      "name": "Floating Moon Globe",
+      "category": "desk",
+      "icon": "\ud83c\udf19",
+      "cost": 160,
+      "unlocked": false,
+      "equipped": false,
+      "description": "Glows in synchrony with lunar focus cycles"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-2",
+      "title": "Linear Algebra Problem Set 4 (Eigenvalues)",
+      "subject_id": "math",
+      "priority": "high",
+      "due_date": "2026-09-14",
+      "estimated_cycles": 2,
+      "completed_cycles": 0,
+      "status": "todo",
+      "notes": "Problems 5.1 through 5.3 on characteristic polynomials.",
+      "created_at": "2026-09-13T22:43:40.555155",
+      "completed_at": null
+    },
+    {
+      "id": "task-3",
+      "title": "Literature Comparative Synthesis Essay",
+      "subject_id": "lit",
+      "priority": "medium",
+      "due_date": "2026-09-17",
+      "estimated_cycles": 4,
+      "completed_cycles": 2,
+      "status": "in_progress",
+      "notes": "Draft 1,500 words comparing Woolf to Joyce on stream of consciousness.",
+      "created_at": "2026-09-13T22:43:40.555159",
+      "completed_at": null
+    },
+    {
+      "id": "task-4",
+      "title": "Review Cellular Respiration Diagram & Enzymes",
+      "subject_id": "bio",
+      "priority": "low",
+      "due_date": "2026-09-19",
+      "estimated_cycles": 1,
+      "completed_cycles": 1,
+      "status": "completed",
+      "notes": "Memorize ATP synthase mechanism and Krebs cycle intermediates.",
+      "created_at": "2026-09-13T22:43:40.555164",
+      "completed_at": "2026-09-13T19:43:40.555129"
+    },
+    {
+      "id": "task-5",
+      "title": "Design Pastel Palette & Room Moodboard",
+      "subject_id": "art",
+      "priority": "medium",
+      "due_date": "2026-09-16",
+      "estimated_cycles": 2,
+      "completed_cycles": 0,
+      "status": "todo",
+      "notes": "Pick 6 matching pastel swatches for the cozy room.",
+      "created_at": "2026-09-13T22:43:40.555168",
+      "completed_at": null
+    }
+  ],
+  "sessions": [
+    {
+      "id": "sess-1",
+      "task_id": "task-1",
+      "task_title": "Implement Red-Black Tree Balanced Insert",
+      "subject_id": "cs101",
+      "start_time": "2026-09-13T20:43:40.555169",
+      "duration_seconds": 1500,
+      "active_focus_seconds": 1420,
+      "distracted_seconds": 80,
+      "tab_switches": 2,
+      "integrity_rate": 95,
+      "mode": "honest",
+      "completed": true,
+      "charms_earned": 15
+    },
+    {
+      "id": "sess-2",
+      "task_id": "task-3",
+      "task_title": "Literature Comparative Synthesis Essay",
+      "subject_id": "lit",
+      "start_time": "2026-09-13T18:43:40.555169",
+      "duration_seconds": 1500,
+      "active_focus_seconds": 1310,
+      "distracted_seconds": 190,
+      "tab_switches": 4,
+      "integrity_rate": 87,
+      "mode": "honest",
+      "completed": true,
+      "charms_earned": 12
+    },
+    {
+      "id": "sess-3",
+      "task_id": "task-4",
+      "task_title": "Review Cellular Respiration Diagram & Enzymes",
+      "subject_id": "bio",
+      "start_time": "2026-09-12T19:43:40.555169",
+      "duration_seconds": 1500,
+      "active_focus_seconds": 1480,
+      "distracted_seconds": 20,
+      "tab_switches": 1,
+      "integrity_rate": 99,
+      "mode": "honest",
+      "completed": true,
+      "charms_earned": 20
+    },
+    {
+      "id": "sess-4",
+      "task_id": "task-1",
+      "task_title": "Implement Red-Black Tree Balanced Insert",
+      "subject_id": "cs101",
+      "start_time": "2026-09-12T16:43:40.555169",
+      "duration_seconds": 1500,
+      "active_focus_seconds": 1120,
+      "distracted_seconds": 380,
+      "tab_switches": 6,
+      "integrity_rate": 75,
+      "mode": "honest",
+      "completed": true,
+      "charms_earned": 8
+    },
+    {
+      "id": "sess-5",
+      "task_id": "task-3",
+      "task_title": "Literature Comparative Synthesis Essay",
+      "subject_id": "lit",
+      "start_time": "2026-09-11T18:43:40.555169",
+      "duration_seconds": 1800,
+      "active_focus_seconds": 1720,
+      "distracted_seconds": 80,
+      "tab_switches": 2,
+      "integrity_rate": 96,
+      "mode": "honest",
+      "completed": true,
+      "charms_earned": 18
+    },
+    {
+      "id": "sess-6",
+      "task_id": null,
+      "task_title": "Morning Mindful Study & Reading",
+      "subject_id": "cs101",
+      "start_time": "2026-09-10T20:43:40.555169",
+      "duration_seconds": 1500,
+      "active_focus_seconds": 1450,
+      "distracted_seconds": 50,
+      "tab_switches": 1,
+      "integrity_rate": 97,
+      "mode": "honest",
+      "completed": true,
+      "charms_earned": 15
+    }
+  ],
+  "settings": {
+    "theme": "midnight",
+    "anti_cheat_mode": "honest",
+    "pomodoro_minutes": 25,
+    "short_break_minutes": 5,
+    "long_break_minutes": 15,
+    "sound_enabled": true,
+    "grace_period_seconds": 5
+  },
+  "stats": {
+    "current_streak": 3,
+    "best_streak": 5,
+    "last_active_date": "2026-10-16"
+  }
+}
